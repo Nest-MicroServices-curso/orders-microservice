@@ -8,7 +8,7 @@ import { NATS_SERVICE, envs } from 'src/config';
             { name: NATS_SERVICE,
               transport: Transport.NATS,
               options: {
-                servers: envs.natServers
+                servers: envs.natsServers
               }
             },
           ]),
@@ -18,7 +18,7 @@ import { NATS_SERVICE, envs } from 'src/config';
             { name: NATS_SERVICE,
               transport: Transport.NATS,
               options: {
-                servers: envs.natServers
+                servers: envs.natsServers
               }
             },
           ]),
